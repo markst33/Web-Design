@@ -1,0 +1,610 @@
+/* Main CSS File */
+
+.box {
+    width: 33.333%;
+    background-size: contain;
+    
+}
+
+.mm {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container img {
+    background-size: contain;
+    width: 100%;
+}
+
+
+.text {
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+    
+}
+
+.flex-item {
+    display: inline;
+    align-self: center;
+}
+
+.container .slide-box {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: white;
+    display: flex;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    height: 100%;
+    left: 0;
+    line-height: 1.7em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5%;
+    position: absolute;
+    top: 100%;
+    transition: all 1s ease 0s;
+    width: 100%;
+    
+}
+.container .slide-box .heading {
+    color: #FFD829;
+    display: block;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.para2 {
+    margin-top: 12px;
+    display: block;
+    
+   
+}
+
+.container .slide-box a {
+    text-decoration: none;
+    color: #FFD829;
+}
+
+
+.container .slide-box iframe {
+    padding-left: 10%;
+}
+.text:hover .slide-box {
+    top: 0;
+}
+
+
+h1 {
+    font-size: 80px;
+    color: darkred;
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    margin-top: 3%;
+    
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Niconne', cursive;
+    padding-top: 1%;
+    padding-bottom: 7px;
+    color: black;
+    text-align: center;
+    
+    
+}
+
+img {
+    display: block;
+}
+
+
+
+
+/*css for fading images in and out */
+
+/*Top Left*/
+
+.bord{
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+}
+
+.crossfd{
+        background: url("../images/rawmaterials.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfd img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfd img:hover{
+            opacity: 0;
+                              
+}
+
+/*Top Right*/
+
+
+.crossfdtr{
+        background: url("../images/joceyrimcolor.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdtr img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdtr img:hover{
+            opacity: 0;
+                              
+}
+
+/*vanessa*/
+
+
+
+.crossfdvan{
+        background: url("../images/strawberrymilk.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdvan img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdvan img:hover{
+            opacity: 0;
+                              
+}
+
+/*suldery*/
+
+
+
+.crossfdsuldery{
+        background: url("../images/yoshi.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdsuldery img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdsuldery img:hover{
+            opacity: 0;
+                              
+}
+
+/* me */
+
+
+
+.crossfdme{
+        background: url("../images/goodevening.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdme img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdme img:hover{
+            opacity: 0;
+                              
+}
+
+/*jocey */
+
+.crossfdjocey{
+        background: url("../images/grandcanal.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdjocey img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdjocey img:hover{
+            opacity: 0;
+                              
+}
+
+/*siofradh */
+
+.crossfdsiofradh{
+        background: url("../images/scrumtime.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdsiofradh img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdsiofradh img:hover{
+            opacity: 0;
+                              
+}
+
+/*polly */
+
+.crossfdpolly{
+        background: url("../images/watercolors.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdpolly img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdpolly img:hover{
+            opacity: 0;
+                              
+}
+
+/*ciaran */
+
+.crossfdciaran{
+        background: url("../images/hookedondublin.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdciaran img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdciaran img:hover{
+            opacity: 0;
+                              
+}
+
+/*kinard */
+
+.crossfdkinard{
+        background: url("../images/suspendedmarbles.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdkinard img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdkinard img:hover{
+            opacity: 0;
+                              
+}
+
+/*li */
+
+.crossfdli{
+        background: url("../images/trueme.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdli img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdli img:hover{
+            opacity: 0;
+                              
+}
+
+
+/*social media*/
+
+@font-face {
+    font-family: 'si';
+    src: url("../socicon/socicon.eot");
+    src: url("../socicon/socicon.eot?#iefix") format('embedded-opentype'),
+         url("../socicon/socicon.woff") format('woff'),
+         url("../socicon/socicon.ttf") format('truetype'),
+         url("../socicon/socicon.svg#icomoonregular") format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../socicon/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    margin-bottom: 7px;
+    zoom:1;
+    margin-top: 15px;
+    margin-right: 10%;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    border-radius: 45px;
+    margin-right: 8%;
+    color: #ffffff;
+    background-color: none;
+    
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #3371b7;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: lightgray;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook {
+    background-color: lightgray;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-linkedin {
+    background-color: lightgray;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-email1 {
+    background-color: lightgray;
+}
+.soc-email1:before {
+    content:'<';
+}
+
+footer {
+    text-align: center;
+    color: darkgray;
+    font-family: 'Niconne', cursive;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+/* css for BLOG */
+
+.bg {
+    background-image: url(../images/towers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+.blogwrapper {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    background:rgba(255,255,255, 0.1);
+
+}
+h3 {
+    
+    font-family: "Aref Ruqaa", serif;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 66px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+h4 {
+    font-family: "Aref Ruqaa", serif;
+    color: #fff;
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding-top: 10px;
+    
+}
+
+.blogcontent {
+    font-size: 20px;
+    font-family: "Aref Ruqaa", serif;
+    padding-top: 1%;
+    padding-bottom: 7px;
+    color: black;
+    
+}
+
+.blogtext {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.fototext {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*css for flipping images */
+
+.f1_container {
+position: relative;
+margin: 10px auto;
+width: 600px;
+height: 397px;
+z-index: 1;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+		
+.f1_container {
+-webkit-perspective: 1000px;
+        perspective: 1000px;
+}
+		
+.f1_card {
+width: 100%;
+height: 100%;
+-webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+-webkit-transition: all 1.0s linear;
+        transition: all 1.0s linear;
+}
+		
+.f1_container:hover .f1_card {
+-webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+box-shadow: -5px 5px 5px #aaa;
+}
+		
+.face {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+display: block;
+-webkit-transform: rotateY(360deg);
+        transform: rotateY(360deg);
+box-sizing: border-box;
+color: midnightblue;
+text-align: left;
+background-color: lightgray;
+}
+		
+.back{
+-webkit-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+-webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+}
+
+.front img {
+    width: 600px;
+    
+}
+
+.back img {
+    width: 600px;
+}
+
+.social-icons {
+    margin-left: 20%;
+}
