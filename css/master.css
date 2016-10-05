@@ -35,6 +35,8 @@
     align-self: center;
 }
 
+
+
 .container .slide-box {
     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
     color: white;
@@ -61,14 +63,18 @@
 }
 .para2 {
     margin-top: 12px;
+    margin-bottom: 10px;
     display: block;
     
    
 }
 
+
+
 .container .slide-box a {
     text-decoration: none;
     color: #FFD829;
+   
 }
 
 
@@ -335,7 +341,7 @@ img {
 /*li */
 
 .crossfdli{
-        background: url("../images/trueme.jpg");
+        background: url("../images/homepage/lauraeyessideways.jpg");
         background-size: cover;
         display: inline-block;
 }
@@ -352,6 +358,153 @@ img {
             opacity: 0;
                               
 }
+
+/*vampire */
+
+.crossfdlauraeyebrows{
+        background: url("../images/homepage/vampeyebrows.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdlauraeyebrows img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdlauraeyebrows img:hover{
+            opacity: 0;
+                              
+}
+
+.crossfdlauravamp{
+        background: url("../images/homepage/vampyelloweyes.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdlauravamp img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdlauravamp img:hover{
+            opacity: 0;
+                              
+}
+
+/*Lauras Funny face */
+
+.crossfdlauraface{
+        background: url("../images/homepage/laurafacecol.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdlauraface img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdlauraface img:hover{
+            opacity: 0;
+                              
+}
+
+/*Lauras duotone */
+
+.crossfdduotone{
+        background: url("../images/homepage/panel.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdduotone img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdduotone img:hover{
+            opacity: 0;
+                              
+}
+
+/*Lou */
+
+.crossfdlou{
+        background: url("../images/homepage/TheWoods.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdlou img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdlou img:hover{
+            opacity: 0;
+                              
+}
+
+/*doublePortrait */
+
+.crossfddouble{
+        background: url("../images/homepage/glendalough.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfddouble img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfddouble img:hover{
+            opacity: 0;
+                              
+}
+
+
+/*Keeara */
+
+.crossfdkeeara{
+        background: url("../images/homepage/Keeara3col.jpg");
+        background-size: cover;
+        display: inline-block;
+}
+
+
+.crossfdkeeara img{
+                 -webkit-transition: opacity 1s ease-in-out;
+                 -moz-transition: opacity 1s ease-in-out;
+                 -o-transition: opacity 1s ease-in-out;
+                 transition: opacity 1s ease-in-out;
+}
+
+.crossfdkeeara img:hover{
+            opacity: 0;
+                              
+}
+
 
 
 /*social media*/
@@ -476,7 +629,7 @@ footer {
 /* css for BLOG */
 
 .bg {
-    background-image: url(../images/towers.jpg);
+    background-image: url(../images/towersblur.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -514,7 +667,7 @@ h4 {
 
 .blogcontent {
     font-size: 20px;
-    font-family: "Aref Ruqaa", serif;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 1%;
     padding-bottom: 7px;
     color: black;
@@ -571,7 +724,6 @@ height: 100%;
 .f1_container:hover .f1_card {
 -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
-box-shadow: -5px 5px 5px #aaa;
 }
 		
 .face {
@@ -583,10 +735,9 @@ height: 100%;
 display: block;
 -webkit-transform: rotateY(360deg);
         transform: rotateY(360deg);
-box-sizing: border-box;
+
 color: midnightblue;
 text-align: left;
-background-color: lightgray;
 }
 		
 .back{
